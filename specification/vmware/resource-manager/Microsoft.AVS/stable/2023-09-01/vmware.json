@@ -512,7 +512,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -575,7 +575,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -849,7 +849,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -1105,7 +1105,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -1361,7 +1361,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -1629,7 +1629,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -1700,7 +1700,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -1988,7 +1988,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -2346,7 +2346,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -2425,7 +2425,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -2883,7 +2883,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -3341,7 +3341,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -3450,7 +3450,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -3512,7 +3512,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -3768,7 +3768,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -4364,8 +4364,7 @@
             "required": true,
             "schema": {
               "$ref": "#/definitions/WorkloadNetworkDhcpUpdate"
-            },
-            "x-ms-client-name": "workloadNetworkDhcp"
+            }
           }
         ],
         "responses": {
@@ -4402,7 +4401,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -4470,7 +4469,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -4724,7 +4723,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -4782,7 +4781,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -5036,7 +5035,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -5094,7 +5093,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -5453,7 +5452,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -5511,7 +5510,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -5745,7 +5744,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -6011,7 +6010,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -6082,7 +6081,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -6441,7 +6440,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       },
@@ -6499,7 +6498,7 @@
           }
         },
         "x-ms-long-running-operation-options": {
-          "final-state-via": "location"
+          "final-state-via": "azure-async-operation"
         },
         "x-ms-long-running-operation": true
       }
@@ -6513,11 +6512,7 @@
         "properties": {
           "$ref": "#/definitions/AddonProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": false
         }
       },
       "allOf": [
@@ -6535,6 +6530,9 @@
           "description": "The VMware vCenter resource ID"
         }
       },
+      "required": [
+        "vCenter"
+      ],
       "allOf": [
         {
           "$ref": "#/definitions/AddonProperties"
@@ -6570,24 +6568,33 @@
           "description": "The Addon items on this page",
           "items": {
             "$ref": "#/definitions/Addon"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "AddonProperties": {
       "type": "object",
       "description": "The properties of an addon",
       "properties": {
         "addonType": {
-          "$ref": "#/definitions/AddonType",
+          "enum": [
+            "SRM",
+            "VR",
+            "HCX",
+            "Arc"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "AddonType",
+            "modelAsString": true
+          },
           "description": "Addon type"
         },
         "provisioningState": {
@@ -6665,6 +6672,9 @@
           "description": "The Site Recovery Manager (SRM) license"
         }
       },
+      "required": [
+        "licenseKey"
+      ],
       "allOf": [
         {
           "$ref": "#/definitions/AddonProperties"
@@ -6903,13 +6913,12 @@
         "properties": {
           "$ref": "#/definitions/CloudLinkProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
+      "required": [
+        "properties"
+      ],
       "allOf": [
         {
           "$ref": "../../../../../common-types/resource-management/v5/types.json#/definitions/ProxyResource"
@@ -6925,17 +6934,16 @@
           "description": "The CloudLink items on this page",
           "items": {
             "$ref": "#/definitions/CloudLink"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "CloudLinkProperties": {
       "type": "object",
@@ -6955,7 +6963,10 @@
           "type": "string",
           "description": "Identifier of the other private cloud participating in the link."
         }
-      }
+      },
+      "required": [
+        "linkedCloud"
+      ]
     },
     "CloudLinkProvisioningState": {
       "type": "string",
@@ -7037,11 +7048,7 @@
         "properties": {
           "$ref": "#/definitions/ClusterProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         },
         "sku": {
           "$ref": "../../../../../common-types/resource-management/v5/types.json#/definitions/Sku",
@@ -7066,17 +7073,16 @@
           "description": "The Cluster items on this page",
           "items": {
             "$ref": "#/definitions/Cluster"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "ClusterProperties": {
       "type": "object",
@@ -7233,11 +7239,7 @@
         "properties": {
           "$ref": "#/definitions/DatastoreProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -7255,17 +7257,16 @@
           "description": "The Datastore items on this page",
           "items": {
             "$ref": "#/definitions/Datastore"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "DatastoreProperties": {
       "type": "object",
@@ -7753,11 +7754,7 @@
         "properties": {
           "$ref": "#/definitions/ExpressRouteAuthorizationProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -7773,6 +7770,7 @@
         "value": {
           "type": "array",
           "description": "The ExpressRouteAuthorization items on this page",
+          "readOnly": true,
           "items": {
             "$ref": "#/definitions/ExpressRouteAuthorization"
           }
@@ -7780,12 +7778,10 @@
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "ExpressRouteAuthorizationProperties": {
       "type": "object",
@@ -7856,11 +7852,7 @@
         "properties": {
           "$ref": "#/definitions/GlobalReachConnectionProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -7878,17 +7870,16 @@
           "description": "The GlobalReachConnection items on this page",
           "items": {
             "$ref": "#/definitions/GlobalReachConnection"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "GlobalReachConnectionProperties": {
       "type": "object",
@@ -7997,11 +7988,7 @@
         "properties": {
           "$ref": "#/definitions/HcxEnterpriseSiteProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -8019,17 +8006,16 @@
           "description": "The HcxEnterpriseSite items on this page",
           "items": {
             "$ref": "#/definitions/HcxEnterpriseSite"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "HcxEnterpriseSiteProperties": {
       "type": "object",
@@ -8198,11 +8184,7 @@
         "properties": {
           "$ref": "#/definitions/IscsiPathProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -8220,17 +8202,16 @@
           "description": "The IscsiPath items on this page",
           "items": {
             "$ref": "#/definitions/IscsiPath"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "IscsiPathProperties": {
       "type": "object",
@@ -8432,11 +8413,7 @@
         "properties": {
           "$ref": "#/definitions/PlacementPolicyProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -8454,24 +8431,31 @@
           "description": "The PlacementPolicy items on this page",
           "items": {
             "$ref": "#/definitions/PlacementPolicy"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "PlacementPolicyProperties": {
       "type": "object",
       "description": "Abstract placement policy properties",
       "properties": {
         "type": {
-          "$ref": "#/definitions/PlacementPolicyType",
+          "enum": [
+            "VmVm",
+            "VmHost"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "DhcpTypeEnum",
+            "modelAsString": true
+          },
           "description": "Placement Policy type"
         },
         "state": {
@@ -8692,11 +8676,7 @@
         "properties": {
           "$ref": "#/definitions/PrivateCloudProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         },
         "sku": {
           "$ref": "../../../../../common-types/resource-management/v5/types.json#/definitions/Sku",
@@ -8725,17 +8705,16 @@
           "description": "The PrivateCloud items on this page",
           "items": {
             "$ref": "#/definitions/PrivateCloud"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "PrivateCloudProperties": {
       "type": "object",
@@ -8780,11 +8759,7 @@
         },
         "availability": {
           "$ref": "#/definitions/AvailabilityProperties",
-          "description": "Properties describing how the cloud is distributed across availability zones",
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "description": "Properties describing how the cloud is distributed across availability zones"
         },
         "encryption": {
           "$ref": "#/definitions/Encryption",
@@ -9004,11 +8979,7 @@
         },
         "availability": {
           "$ref": "#/definitions/AvailabilityProperties",
-          "description": "Properties describing how the cloud is distributed across availability zones",
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "description": "Properties describing how the cloud is distributed across availability zones"
         },
         "encryption": {
           "$ref": "#/definitions/Encryption",
@@ -9078,11 +9049,7 @@
         "properties": {
           "$ref": "#/definitions/ScriptCmdletProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -9124,17 +9091,16 @@
           "description": "The ScriptCmdlet items on this page",
           "items": {
             "$ref": "#/definitions/ScriptCmdlet"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "ScriptCmdletProperties": {
       "type": "object",
@@ -9209,11 +9175,7 @@
         "properties": {
           "$ref": "#/definitions/ScriptExecutionProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -9231,24 +9193,32 @@
           "description": "The ScriptExecution items on this page",
           "items": {
             "$ref": "#/definitions/ScriptExecution"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "ScriptExecutionParameter": {
       "type": "object",
       "description": "The arguments passed in to the execution",
       "properties": {
         "type": {
-          "$ref": "#/definitions/ScriptExecutionParameterType",
+          "enum": [
+            "Value",
+            "SecureValue",
+            "Credential"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "DhcpTypeEnum",
+            "modelAsString": true
+          },
           "description": "script execution parameter type"
         },
         "name": {
@@ -9495,11 +9465,7 @@
         "properties": {
           "$ref": "#/definitions/ScriptPackageProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -9517,17 +9483,16 @@
           "description": "The ScriptPackage items on this page",
           "items": {
             "$ref": "#/definitions/ScriptPackage"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "ScriptPackageProperties": {
       "type": "object",
@@ -9859,11 +9824,7 @@
         "properties": {
           "$ref": "#/definitions/VirtualMachineProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -9881,17 +9842,16 @@
           "description": "The VirtualMachine items on this page",
           "items": {
             "$ref": "#/definitions/VirtualMachine"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "VirtualMachineProperties": {
       "type": "object",
@@ -10090,11 +10050,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10110,11 +10066,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkDhcpEntity",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10128,7 +10080,15 @@
       "description": "Base class for WorkloadNetworkDhcpServer and WorkloadNetworkDhcpRelay to\ninherit from",
       "properties": {
         "dhcpType": {
-          "$ref": "#/definitions/DhcpTypeEnum",
+          "enum": [
+            "SERVER",
+            "RELAY"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "DhcpTypeEnum",
+            "modelAsString": true
+          },
           "description": "Type of DHCP: SERVER or RELAY."
         },
         "displayName": {
@@ -10164,7 +10124,15 @@
       "description": "Base class for WorkloadNetworkDhcpServer and WorkloadNetworkDhcpRelay to\ninherit from",
       "properties": {
         "dhcpType": {
-          "$ref": "#/definitions/DhcpTypeEnum",
+          "enum": [
+            "SERVER",
+            "RELAY"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "DhcpTypeEnum",
+            "modelAsString": true
+          },
           "description": "Type of DHCP: SERVER or RELAY."
         },
         "displayName": {
@@ -10191,17 +10159,16 @@
           "description": "The WorkloadNetworkDhcp items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkDhcp"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkDhcpProvisioningState": {
       "type": "string",
@@ -10354,11 +10321,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkDnsServiceProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10376,17 +10339,16 @@
           "description": "The WorkloadNetworkDnsService items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkDnsService"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkDnsServiceProperties": {
       "type": "object",
@@ -10499,11 +10461,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkDnsZoneProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10521,17 +10479,16 @@
           "description": "The WorkloadNetworkDnsZone items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkDnsZone"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkDnsZoneProperties": {
       "type": "object",
@@ -10643,11 +10600,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkGatewayProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10665,17 +10618,16 @@
           "description": "The WorkloadNetworkGateway items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkGateway"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkGatewayProperties": {
       "type": "object",
@@ -10706,17 +10658,16 @@
           "description": "The WorkloadNetwork items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetwork"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkPortMirroring": {
       "type": "object",
@@ -10725,11 +10676,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkPortMirroringProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10747,17 +10694,16 @@
           "description": "The WorkloadNetworkPortMirroring items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkPortMirroring"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkPortMirroringProperties": {
       "type": "object",
@@ -10923,11 +10869,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkPublicIPProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -10945,17 +10887,16 @@
           "description": "The WorkloadNetworkPublicIP items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkPublicIP"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkPublicIPProperties": {
       "type": "object",
@@ -11038,11 +10979,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkSegmentProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -11060,17 +10997,16 @@
           "description": "The WorkloadNetworkSegment items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkSegment"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkSegmentPortVif": {
       "type": "object",
@@ -11208,11 +11144,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkVMGroupProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -11230,17 +11162,16 @@
           "description": "The WorkloadNetworkVMGroup items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkVMGroup"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkVMGroupProperties": {
       "type": "object",
@@ -11341,11 +11272,7 @@
         "properties": {
           "$ref": "#/definitions/WorkloadNetworkVirtualMachineProperties",
           "description": "The resource-specific properties for this resource.",
-          "x-ms-client-flatten": true,
-          "x-ms-mutability": [
-            "read",
-            "create"
-          ]
+          "x-ms-client-flatten": true
         }
       },
       "allOf": [
@@ -11363,17 +11290,16 @@
           "description": "The WorkloadNetworkVirtualMachine items on this page",
           "items": {
             "$ref": "#/definitions/WorkloadNetworkVirtualMachine"
-          }
+          },
+          "readOnly": true
         },
         "nextLink": {
           "type": "string",
           "format": "uri",
-          "description": "The link to the next page of items"
+          "description": "The link to the next page of items",
+          "readOnly": true
         }
-      },
-      "required": [
-        "value"
-      ]
+      }
     },
     "WorkloadNetworkVirtualMachineProperties": {
       "type": "object",
